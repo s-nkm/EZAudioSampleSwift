@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E55CF10A1B158F9300DAD2DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55CF1091B158F9300DAD2DB /* AppDelegate.swift */; };
+		E55CF10C1B158F9300DAD2DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55CF10B1B158F9300DAD2DB /* ViewController.swift */; };
+		E55CF10F1B158F9300DAD2DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55CF10D1B158F9300DAD2DB /* Main.storyboard */; };
+		E55CF1111B158F9300DAD2DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55CF1101B158F9300DAD2DB /* Images.xcassets */; };
+		E55CF1141B158F9300DAD2DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E55CF1121B158F9300DAD2DB /* LaunchScreen.xib */; };
+		E55CF1201B158F9300DAD2DB /* EZAudioSampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55CF11F1B158F9300DAD2DB /* EZAudioSampleSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E55CF11A1B158F9300DAD2DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E55CF0FC1B158F9300DAD2DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55CF1031B158F9300DAD2DB;
+			remoteInfo = EZAudioSampleSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E55CF1041B158F9300DAD2DB /* EZAudioSampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZAudioSampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55CF1081B158F9300DAD2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55CF1091B158F9300DAD2DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E55CF10B1B158F9300DAD2DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E55CF10E1B158F9300DAD2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E55CF1101B158F9300DAD2DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E55CF1131B158F9300DAD2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E55CF1191B158F9300DAD2DB /* EZAudioSampleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZAudioSampleSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55CF11E1B158F9300DAD2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55CF11F1B158F9300DAD2DB /* EZAudioSampleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZAudioSampleSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E55CF1011B158F9300DAD2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55CF1161B158F9300DAD2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E55CF0FB1B158F9300DAD2DB = {
+			isa = PBXGroup;
+			children = (
+				E55CF1061B158F9300DAD2DB /* EZAudioSampleSwift */,
+				E55CF11C1B158F9300DAD2DB /* EZAudioSampleSwiftTests */,
+				E55CF1051B158F9300DAD2DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E55CF1051B158F9300DAD2DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E55CF1041B158F9300DAD2DB /* EZAudioSampleSwift.app */,
+				E55CF1191B158F9300DAD2DB /* EZAudioSampleSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E55CF1061B158F9300DAD2DB /* EZAudioSampleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E55CF1091B158F9300DAD2DB /* AppDelegate.swift */,
+				E55CF10B1B158F9300DAD2DB /* ViewController.swift */,
+				E55CF10D1B158F9300DAD2DB /* Main.storyboard */,
+				E55CF1101B158F9300DAD2DB /* Images.xcassets */,
+				E55CF1121B158F9300DAD2DB /* LaunchScreen.xib */,
+				E55CF1071B158F9300DAD2DB /* Supporting Files */,
+			);
+			path = EZAudioSampleSwift;
+			sourceTree = "<group>";
+		};
+		E55CF1071B158F9300DAD2DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E55CF1081B158F9300DAD2DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E55CF11C1B158F9300DAD2DB /* EZAudioSampleSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E55CF11F1B158F9300DAD2DB /* EZAudioSampleSwiftTests.swift */,
+				E55CF11D1B158F9300DAD2DB /* Supporting Files */,
+			);
+			path = EZAudioSampleSwiftTests;
+			sourceTree = "<group>";
+		};
+		E55CF11D1B158F9300DAD2DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E55CF11E1B158F9300DAD2DB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E55CF1031B158F9300DAD2DB /* EZAudioSampleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55CF1231B158F9300DAD2DB /* Build configuration list for PBXNativeTarget "EZAudioSampleSwift" */;
+			buildPhases = (
+				E55CF1001B158F9300DAD2DB /* Sources */,
+				E55CF1011B158F9300DAD2DB /* Frameworks */,
+				E55CF1021B158F9300DAD2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZAudioSampleSwift;
+			productName = EZAudioSampleSwift;
+			productReference = E55CF1041B158F9300DAD2DB /* EZAudioSampleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E55CF1181B158F9300DAD2DB /* EZAudioSampleSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E55CF1261B158F9300DAD2DB /* Build configuration list for PBXNativeTarget "EZAudioSampleSwiftTests" */;
+			buildPhases = (
+				E55CF1151B158F9300DAD2DB /* Sources */,
+				E55CF1161B158F9300DAD2DB /* Frameworks */,
+				E55CF1171B158F9300DAD2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E55CF11B1B158F9300DAD2DB /* PBXTargetDependency */,
+			);
+			name = EZAudioSampleSwiftTests;
+			productName = EZAudioSampleSwiftTests;
+			productReference = E55CF1191B158F9300DAD2DB /* EZAudioSampleSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E55CF0FC1B158F9300DAD2DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Nakama;
+				TargetAttributes = {
+					E55CF1031B158F9300DAD2DB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					E55CF1181B158F9300DAD2DB = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = E55CF1031B158F9300DAD2DB;
+					};
+				};
+			};
+			buildConfigurationList = E55CF0FF1B158F9300DAD2DB /* Build configuration list for PBXProject "EZAudioSampleSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E55CF0FB1B158F9300DAD2DB;
+			productRefGroup = E55CF1051B158F9300DAD2DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E55CF1031B158F9300DAD2DB /* EZAudioSampleSwift */,
+				E55CF1181B158F9300DAD2DB /* EZAudioSampleSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E55CF1021B158F9300DAD2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55CF10F1B158F9300DAD2DB /* Main.storyboard in Resources */,
+				E55CF1141B158F9300DAD2DB /* LaunchScreen.xib in Resources */,
+				E55CF1111B158F9300DAD2DB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55CF1171B158F9300DAD2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E55CF1001B158F9300DAD2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55CF10C1B158F9300DAD2DB /* ViewController.swift in Sources */,
+				E55CF10A1B158F9300DAD2DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55CF1151B158F9300DAD2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55CF1201B158F9300DAD2DB /* EZAudioSampleSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E55CF11B1B158F9300DAD2DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55CF1031B158F9300DAD2DB /* EZAudioSampleSwift */;
+			targetProxy = E55CF11A1B158F9300DAD2DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E55CF10D1B158F9300DAD2DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55CF10E1B158F9300DAD2DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E55CF1121B158F9300DAD2DB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55CF1131B158F9300DAD2DB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E55CF1211B158F9300DAD2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E55CF1221B158F9300DAD2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E55CF1241B158F9300DAD2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZAudioSampleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E55CF1251B158F9300DAD2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZAudioSampleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E55CF1271B158F9300DAD2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EZAudioSampleSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZAudioSampleSwift.app/EZAudioSampleSwift";
+			};
+			name = Debug;
+		};
+		E55CF1281B158F9300DAD2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EZAudioSampleSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZAudioSampleSwift.app/EZAudioSampleSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E55CF0FF1B158F9300DAD2DB /* Build configuration list for PBXProject "EZAudioSampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55CF1211B158F9300DAD2DB /* Debug */,
+				E55CF1221B158F9300DAD2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E55CF1231B158F9300DAD2DB /* Build configuration list for PBXNativeTarget "EZAudioSampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55CF1241B158F9300DAD2DB /* Debug */,
+				E55CF1251B158F9300DAD2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E55CF1261B158F9300DAD2DB /* Build configuration list for PBXNativeTarget "EZAudioSampleSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55CF1271B158F9300DAD2DB /* Debug */,
+				E55CF1281B158F9300DAD2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E55CF0FC1B158F9300DAD2DB /* Project object */;
+}

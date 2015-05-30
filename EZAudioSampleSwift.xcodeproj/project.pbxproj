@@ -31,7 +31,7 @@
 		29CCB70650F99D92BFFEAB4F /* Pods-EZAudioSampleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudioSampleSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZAudioSampleSwift/Pods-EZAudioSampleSwift.release.xcconfig"; sourceTree = "<group>"; };
 		6E38213437BA34112F1AF03F /* libPods-EZAudioSampleSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZAudioSampleSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B17331D60AE7EC76D591EA /* Pods-EZAudioSampleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudioSampleSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZAudioSampleSwift/Pods-EZAudioSampleSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		E55500AF1B19F7A40074EEC7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E55500AF1B19F7A40074EEC7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = EZAudioSampleSwift/Podfile; sourceTree = "<group>"; };
 		E55CF1041B158F9300DAD2DB /* EZAudioSampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZAudioSampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55CF1081B158F9300DAD2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E55CF1091B158F9300DAD2DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +85,7 @@
 		E55CF0FB1B158F9300DAD2DB = {
 			isa = PBXGroup;
 			children = (
+				E55500AF1B19F7A40074EEC7 /* Podfile */,
 				E55CF1061B158F9300DAD2DB /* EZAudioSampleSwift */,
 				E55CF11C1B158F9300DAD2DB /* EZAudioSampleSwiftTests */,
 				E55CF1051B158F9300DAD2DB /* Products */,
@@ -105,7 +106,6 @@
 		E55CF1061B158F9300DAD2DB /* EZAudioSampleSwift */ = {
 			isa = PBXGroup;
 			children = (
-				E55500AF1B19F7A40074EEC7 /* Podfile */,
 				E55CF1091B158F9300DAD2DB /* AppDelegate.swift */,
 				E55CF10B1B158F9300DAD2DB /* ViewController.swift */,
 				E55CF10D1B158F9300DAD2DB /* Main.storyboard */,

@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  EZAudioSampleSwift
+//
+//  Created by N on 2015/05/27.
+//  Copyright (c) 2015年 Nakama. All rights reserved.
+//
+
+#ifndef EZAudioSampleSwift_PrefixHeader_pch
+#define EZAudioSampleSwift_PrefixHeader_pch
+
+#endif
+
+// By default this will record a file to the application's documents directory (within the application's sandbox)
+#define kAudioFilePath @"EZAudioTest.m4a"
+
